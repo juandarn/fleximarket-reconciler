@@ -52,8 +52,7 @@ curl -s "$BASE_URL/health" | python3 -m json.tool
 run_step "Load expected transactions (200 txns, 4 currencies, 3 processors)"
 echo -e "${YELLOW}POST /api/v1/settlement/load-transactions${RESET}"
 curl -s -X POST "$BASE_URL/api/v1/settlement/load-transactions" \
-  -H "Content-Type: application/json" \
-  -d @data/expected_transactions.json | python3 -m json.tool
+  -F "file=@data/expected_transactions.json" | python3 -m json.tool
 
 # ── Step 3: Upload PayFlow CSV ────────────────────────────────────────────
 
