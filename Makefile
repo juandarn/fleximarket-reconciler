@@ -1,12 +1,27 @@
-.PHONY: help install db-up db-down db-reset run test test-verbose lint generate-data clean demo
+.PHONY: help install db-up db-down db-reset run run-prod \
+       test test-data test-ingestion test-normalizer test-reconciliation test-api \
+       test-coverage test-fast test-live test-watch test-failed \
+       validate-data generate-data demo clean setup all
 
 # Default target
 help: ## Show this help message
 	@echo "FlexiMarket Settlement Reconciliation Engine"
 	@echo "============================================="
 	@echo ""
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
-		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-20s\033[0m %s\n", $$1, $$2}'
+	@echo "  Setup & Infrastructure"
+	@echo "  ----------------------"
+	@grep -E '^(install|setup|all|db-|run|clean):.*?## .*$$' $(MAKEFILE_LIST) | sort | \
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-24s\033[0m %s\n", $$1, $$2}'
+	@echo ""
+	@echo "  Testing"
+	@echo "  -------"
+	@grep -E '^test[a-zA-Z_-]*:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[33m%-24s\033[0m %s\n", $$1, $$2}'
+	@echo ""
+	@echo "  Data & Validation"
+	@echo "  -----------------"
+	@grep -E '^(generate-data|validate-data|demo):.*?## .*$$' $(MAKEFILE_LIST) | sort | \
+		awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[32m%-24s\033[0m %s\n", $$1, $$2}'
 	@echo ""
 
 # ---- Setup ----
@@ -38,30 +53,92 @@ run: ## Run the FastAPI server (dev mode with hot reload)
 run-prod: ## Run the FastAPI server (production mode)
 	./venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000 --workers 4
 
-# ---- Testing ----
+# ==============================================================================
+# TESTING
+# ==============================================================================
 
-test: ## Run all tests
+# ---- Run by suite ----
+
+test: ## Run ALL tests with verbose output
 	./venv/bin/python -m pytest tests/ -v
 
 test-data: ## Run only test data validation tests
 	./venv/bin/python -m pytest tests/test_data_generation.py -v
 
-test-ingestion: ## Run only ingestion tests
+test-ingestion: ## Run only ingestion parser tests (CSV, JSON, XML)
 	./venv/bin/python -m pytest tests/test_ingestion/ -v
+
+test-normalizer: ## Run only normalizer unit tests
+	./venv/bin/python -m pytest tests/test_ingestion/test_normalizer.py -v
 
 test-reconciliation: ## Run only reconciliation tests
 	./venv/bin/python -m pytest tests/test_reconciliation/ -v
 
-test-api: ## Run only API tests
+test-api: ## Run only API integration tests
 	./venv/bin/python -m pytest tests/test_api/ -v
 
-test-coverage: ## Run tests with coverage report
-	./venv/bin/python -m pytest tests/ -v --tb=short
+# ---- Live / fast feedback ----
 
-# ---- Data Generation ----
+test-fast: ## Run tests in parallel (uses all CPU cores)
+	./venv/bin/python -m pytest tests/ -v -n auto
+
+test-failed: ## Re-run only tests that failed last time
+	./venv/bin/python -m pytest tests/ -v --lf
+
+test-live: ## Run tests with short output, stop on first failure
+	./venv/bin/python -m pytest tests/ --tb=short -x -q
+
+test-watch: ## Watch for file changes and re-run tests automatically
+	@echo "Watching for changes... (Ctrl+C to stop)"
+	@echo "================================================"
+	./venv/bin/python -c "\
+	import subprocess, sys; \
+	from watchfiles import run_process; \
+	run_process( \
+		'app', 'tests', \
+		target=lambda: subprocess.run( \
+			[sys.executable, '-m', 'pytest', 'tests/', '--tb=short', '-x', '-q'], \
+			cwd='.' \
+		), \
+		watch_filter=lambda change, path: path.endswith('.py'), \
+	)"
+
+# ---- Coverage ----
+
+test-coverage: ## Run tests with coverage report (terminal + HTML)
+	./venv/bin/python -m pytest tests/ -v \
+		--cov=app \
+		--cov-report=term-missing \
+		--cov-report=html:htmlcov \
+		--cov-branch
+	@echo ""
+	@echo "HTML report: open htmlcov/index.html"
+
+test-coverage-quick: ## Run tests with coverage (terminal only, no HTML)
+	./venv/bin/python -m pytest tests/ -q \
+		--cov=app \
+		--cov-report=term-missing \
+		--cov-branch
+
+# ==============================================================================
+# DATA GENERATION & VALIDATION
+# ==============================================================================
 
 generate-data: ## Generate test data files (CSV, JSON, XML)
 	./venv/bin/python scripts/generate_test_data.py
+
+validate-data: ## Validate that test data files are consistent and correct
+	@echo "Validating test data integrity..."
+	@echo ""
+	./venv/bin/python -m pytest tests/test_data_generation.py -v --tb=short
+	@echo ""
+	@echo "Validating normalizer handles all fixture data..."
+	./venv/bin/python -m pytest tests/test_ingestion/test_normalizer.py::TestNormalizerWithFixtureData -v --tb=short
+	@echo ""
+	@echo "Validating all parsers against fixture files..."
+	./venv/bin/python -m pytest tests/test_ingestion/ -v --tb=short -k "ValidCsv or ValidJson or ValidXml"
+	@echo ""
+	@echo "All data validation checks passed!"
 
 # ---- Demo ----
 
