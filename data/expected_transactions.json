@@ -1,0 +1,3002 @@
+[
+  {
+    "transaction_id": "TXN-BR-2024-000006",
+    "amount": 3585.78,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 89.64,
+    "expected_net_amount": 3496.14,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-11T04:23:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100006"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000180",
+    "amount": 331700.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 9288.0,
+    "expected_net_amount": 322412.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-08T13:11:35",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100180"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000160",
+    "amount": 14143.99,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 396.03,
+    "expected_net_amount": 13747.96,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-08T05:57:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100160"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000083",
+    "amount": 794600.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 25427.0,
+    "expected_net_amount": 769173.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-08T06:45:39",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100083"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000112",
+    "amount": 20300.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 650.0,
+    "expected_net_amount": 19650.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-12T10:11:48",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100112"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000140",
+    "amount": 9464.99,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 265.02,
+    "expected_net_amount": 9199.97,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-05T17:16:00",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100140"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000101",
+    "amount": 1890400.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 60493.0,
+    "expected_net_amount": 1829907.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T14:49:49",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100101"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000036",
+    "amount": 2279.54,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 56.99,
+    "expected_net_amount": 2222.55,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-07T09:26:06",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100036"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000199",
+    "amount": 1761250.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 49315.0,
+    "expected_net_amount": 1711935.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-07T16:56:17",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100199"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000146",
+    "amount": 12031.18,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 336.87,
+    "expected_net_amount": 11694.31,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-13T21:24:24",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100146"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000150",
+    "amount": 11167.65,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 312.69,
+    "expected_net_amount": 10854.96,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-12T12:31:04",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100150"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000090",
+    "amount": 1974550.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 63186.0,
+    "expected_net_amount": 1911364.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-13T20:07:49",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100090"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000118",
+    "amount": 58550.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 1874.0,
+    "expected_net_amount": 56676.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-07T08:10:07",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100118"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000022",
+    "amount": 4217.4,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 105.44,
+    "expected_net_amount": 4111.96,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T08:35:10",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100022"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000130",
+    "amount": 451500.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 14448.0,
+    "expected_net_amount": 437052.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-08T07:18:57",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100130"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000128",
+    "amount": 163750.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 5240.0,
+    "expected_net_amount": 158510.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-08T04:13:53",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100128"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000025",
+    "amount": 2506.17,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 62.65,
+    "expected_net_amount": 2443.52,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-12T03:18:02",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100025"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000103",
+    "amount": 88450.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 2830.0,
+    "expected_net_amount": 85620.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-09T20:25:29",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100103"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000087",
+    "amount": 701250.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 22440.0,
+    "expected_net_amount": 678810.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T16:04:25",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100087"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000187",
+    "amount": 859600.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 24069.0,
+    "expected_net_amount": 835531.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-09T23:52:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100187"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000174",
+    "amount": 141900.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 3973.0,
+    "expected_net_amount": 137927.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-01T23:27:07",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100174"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000139",
+    "amount": 11538.92,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 323.09,
+    "expected_net_amount": 11215.83,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-12T01:17:56",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100139"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000002",
+    "amount": 1239.56,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 30.99,
+    "expected_net_amount": 1208.57,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-04T09:17:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100002"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000125",
+    "amount": 35900.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 1149.0,
+    "expected_net_amount": 34751.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-09T00:21:19",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100125"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000003",
+    "amount": 3389.96,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 84.75,
+    "expected_net_amount": 3305.21,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-03T02:38:43",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100003"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000047",
+    "amount": 13092.87,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 327.32,
+    "expected_net_amount": 12765.55,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-11T06:29:44",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100047"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000173",
+    "amount": 108900.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 3049.0,
+    "expected_net_amount": 105851.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-09T11:52:00",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100173"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000148",
+    "amount": 10803.15,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 302.49,
+    "expected_net_amount": 10500.66,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-13T06:03:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100148"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000147",
+    "amount": 8952.01,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 250.66,
+    "expected_net_amount": 8701.35,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-11T17:49:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100147"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000119",
+    "amount": 481300.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 15402.0,
+    "expected_net_amount": 465898.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-07T10:38:43",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100119"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000099",
+    "amount": 527600.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 16883.0,
+    "expected_net_amount": 510717.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-11T17:23:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100099"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000154",
+    "amount": 5070.92,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 141.99,
+    "expected_net_amount": 4928.93,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-02T22:56:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100154"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000092",
+    "amount": 211650.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 6773.0,
+    "expected_net_amount": 204877.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T06:13:48",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100092"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000069",
+    "amount": 13541.52,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 338.54,
+    "expected_net_amount": 13202.98,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-04T23:54:29",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100069"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000191",
+    "amount": 873800.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 24466.0,
+    "expected_net_amount": 849334.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-13T15:56:22",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100191"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000097",
+    "amount": 850050.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 27202.0,
+    "expected_net_amount": 822848.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-07T17:10:40",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100097"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000019",
+    "amount": 3424.07,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 85.6,
+    "expected_net_amount": 3338.47,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T17:35:41",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100019"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000064",
+    "amount": 13852.82,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 346.32,
+    "expected_net_amount": 13506.5,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-11T18:08:32",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100064"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000110",
+    "amount": 206450.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 6606.0,
+    "expected_net_amount": 199844.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-07T00:34:04",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100110"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000171",
+    "amount": 1902650.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 53274.0,
+    "expected_net_amount": 1849376.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-11T05:34:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100171"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000134",
+    "amount": 397050.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 12706.0,
+    "expected_net_amount": 384344.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-05T02:51:08",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100134"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000165",
+    "amount": 12615.56,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 353.24,
+    "expected_net_amount": 12262.32,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-04T02:20:54",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100165"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000169",
+    "amount": 3939.34,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 110.3,
+    "expected_net_amount": 3829.04,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-08T22:41:48",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100169"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000018",
+    "amount": 1789.25,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 44.73,
+    "expected_net_amount": 1744.52,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-07T11:31:33",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100018"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000189",
+    "amount": 1645550.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 46075.0,
+    "expected_net_amount": 1599475.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-03T13:28:51",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100189"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000042",
+    "amount": 13940.02,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 348.5,
+    "expected_net_amount": 13591.52,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-08T11:08:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100042"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000168",
+    "amount": 2078.71,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 58.2,
+    "expected_net_amount": 2020.51,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-12T04:57:31",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100168"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000035",
+    "amount": 1714.07,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 42.85,
+    "expected_net_amount": 1671.22,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-08T02:58:34",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100035"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000086",
+    "amount": 430250.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13768.0,
+    "expected_net_amount": 416482.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-07T10:29:25",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100086"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000082",
+    "amount": 525250.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 16808.0,
+    "expected_net_amount": 508442.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-08T15:01:31",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100082"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000084",
+    "amount": 1858400.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 59469.0,
+    "expected_net_amount": 1798931.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T18:15:33",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100084"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000043",
+    "amount": 3651.03,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 91.28,
+    "expected_net_amount": 3559.75,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-02T21:52:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100043"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000068",
+    "amount": 7310.33,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 182.76,
+    "expected_net_amount": 7127.57,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-06T04:31:00",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100068"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000041",
+    "amount": 9004.22,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 225.11,
+    "expected_net_amount": 8779.11,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-12T20:38:00",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100041"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000194",
+    "amount": 494750.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 13853.0,
+    "expected_net_amount": 480897.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-03T02:29:05",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100194"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000051",
+    "amount": 1007.19,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 25.18,
+    "expected_net_amount": 982.01,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-01T12:15:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100051"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000017",
+    "amount": 3185.71,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 79.64,
+    "expected_net_amount": 3106.07,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-09T20:31:48",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100017"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000127",
+    "amount": 150850.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 4827.0,
+    "expected_net_amount": 146023.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-08T12:10:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100127"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000044",
+    "amount": 7315.56,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 182.89,
+    "expected_net_amount": 7132.67,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-02T16:19:09",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100044"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000096",
+    "amount": 506000.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 16192.0,
+    "expected_net_amount": 489808.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T05:35:33",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100096"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000066",
+    "amount": 14989.27,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 374.73,
+    "expected_net_amount": 14614.54,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-01T08:35:49",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100066"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000157",
+    "amount": 7015.57,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 196.44,
+    "expected_net_amount": 6819.13,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-02T12:16:20",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100157"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000045",
+    "amount": 8013.96,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 200.35,
+    "expected_net_amount": 7813.61,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-04T01:15:38",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100045"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000192",
+    "amount": 543800.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 15226.0,
+    "expected_net_amount": 528574.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-12T17:39:27",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100192"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000037",
+    "amount": 3814.57,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 95.36,
+    "expected_net_amount": 3719.21,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-13T07:44:45",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100037"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000030",
+    "amount": 781.15,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 19.53,
+    "expected_net_amount": 761.62,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-04T21:11:46",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100030"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000188",
+    "amount": 1296850.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 36312.0,
+    "expected_net_amount": 1260538.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-01T07:22:13",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100188"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000038",
+    "amount": 4355.18,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 108.88,
+    "expected_net_amount": 4246.3,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-08T05:51:24",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100038"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000061",
+    "amount": 10936.79,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 273.42,
+    "expected_net_amount": 10663.37,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-03T15:39:13",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100061"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000094",
+    "amount": 1211650.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 38773.0,
+    "expected_net_amount": 1172877.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-09T07:44:32",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100094"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000053",
+    "amount": 10632.22,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 265.81,
+    "expected_net_amount": 10366.41,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-02T10:17:47",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100053"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000001",
+    "amount": 3204.35,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 80.11,
+    "expected_net_amount": 3124.24,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-01T14:34:11",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100001"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000100",
+    "amount": 858250.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 27464.0,
+    "expected_net_amount": 830786.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-01T05:37:58",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100100"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000116",
+    "amount": 432300.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13834.0,
+    "expected_net_amount": 418466.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-07T18:36:07",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100116"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000172",
+    "amount": 168400.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 4715.0,
+    "expected_net_amount": 163685.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-01T11:17:29",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100172"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000023",
+    "amount": 179.86,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 4.5,
+    "expected_net_amount": 175.36,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-08T15:45:52",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100023"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000161",
+    "amount": 12809.05,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 358.65,
+    "expected_net_amount": 12450.4,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-11T04:05:51",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100161"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000021",
+    "amount": 1909.69,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 47.74,
+    "expected_net_amount": 1861.95,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-06T07:56:06",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100021"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000120",
+    "amount": 298700.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 9558.0,
+    "expected_net_amount": 289142.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-09T09:22:38",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100120"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000034",
+    "amount": 590.47,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 14.76,
+    "expected_net_amount": 575.71,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-07T11:26:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100034"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000028",
+    "amount": 4986.68,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 124.67,
+    "expected_net_amount": 4862.01,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-04T08:35:02",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100028"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000114",
+    "amount": 410450.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13134.0,
+    "expected_net_amount": 397316.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-06T12:35:02",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100114"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000153",
+    "amount": 1208.38,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 33.83,
+    "expected_net_amount": 1174.55,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-07T22:26:55",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100153"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000013",
+    "amount": 1480.03,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 37.0,
+    "expected_net_amount": 1443.03,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-09T18:40:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100013"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000167",
+    "amount": 9961.85,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 278.93,
+    "expected_net_amount": 9682.92,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-03T00:54:10",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100167"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000008",
+    "amount": 815.1,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 20.38,
+    "expected_net_amount": 794.72,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-11T06:11:26",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100008"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000102",
+    "amount": 1670000.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 53440.0,
+    "expected_net_amount": 1616560.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T14:16:15",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100102"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000108",
+    "amount": 488150.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 15621.0,
+    "expected_net_amount": 472529.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-05T07:08:25",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100108"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000040",
+    "amount": 3817.3,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 95.43,
+    "expected_net_amount": 3721.87,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-13T20:57:12",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100040"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000055",
+    "amount": 3608.17,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 90.2,
+    "expected_net_amount": 3517.97,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-12T18:46:27",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100055"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000179",
+    "amount": 1216450.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 34061.0,
+    "expected_net_amount": 1182389.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-03T18:43:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100179"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000107",
+    "amount": 375000.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 12000.0,
+    "expected_net_amount": 363000.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-06T17:54:34",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100107"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000200",
+    "amount": 1035650.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 28998.0,
+    "expected_net_amount": 1006652.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-05T15:17:54",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100200"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000058",
+    "amount": 1499.12,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 37.48,
+    "expected_net_amount": 1461.64,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-11T11:06:19",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100058"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000049",
+    "amount": 6014.93,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 150.37,
+    "expected_net_amount": 5864.56,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-10T01:31:59",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100049"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000067",
+    "amount": 13899.19,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 347.48,
+    "expected_net_amount": 13551.71,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-06T17:42:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100067"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000029",
+    "amount": 472.73,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 11.82,
+    "expected_net_amount": 460.91,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T03:26:50",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100029"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000080",
+    "amount": 84300.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 2698.0,
+    "expected_net_amount": 81602.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T23:45:31",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100080"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000077",
+    "amount": 164800.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 5274.0,
+    "expected_net_amount": 159526.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-05T12:15:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100077"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000145",
+    "amount": 8383.22,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 234.73,
+    "expected_net_amount": 8148.49,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-03T22:41:47",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100145"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000054",
+    "amount": 13586.03,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 339.65,
+    "expected_net_amount": 13246.38,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-09T00:29:18",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100054"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000098",
+    "amount": 670450.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 21454.0,
+    "expected_net_amount": 648996.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T04:12:28",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100098"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000072",
+    "amount": 1914850.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 61275.0,
+    "expected_net_amount": 1853575.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-12T19:30:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100072"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000016",
+    "amount": 4335.09,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 108.38,
+    "expected_net_amount": 4226.71,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-10T05:26:22",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100016"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000032",
+    "amount": 2987.52,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 74.69,
+    "expected_net_amount": 2912.83,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-12T08:39:31",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100032"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000011",
+    "amount": 3026.56,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 75.66,
+    "expected_net_amount": 2950.9,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T01:18:42",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100011"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000039",
+    "amount": 2548.16,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 63.7,
+    "expected_net_amount": 2484.46,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-05T19:52:26",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100039"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000133",
+    "amount": 221650.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 7093.0,
+    "expected_net_amount": 214557.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-06T04:29:24",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100133"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000184",
+    "amount": 1662000.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 46536.0,
+    "expected_net_amount": 1615464.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-06T21:28:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100184"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000131",
+    "amount": 417050.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13346.0,
+    "expected_net_amount": 403704.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-08T09:01:11",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100131"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000020",
+    "amount": 872.27,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 21.81,
+    "expected_net_amount": 850.46,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-06T22:36:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100020"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000175",
+    "amount": 1899500.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 53186.0,
+    "expected_net_amount": 1846314.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-05T20:08:09",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100175"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000129",
+    "amount": 96750.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 3096.0,
+    "expected_net_amount": 93654.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-10T04:52:05",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100129"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000162",
+    "amount": 11032.78,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 308.92,
+    "expected_net_amount": 10723.86,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-06T08:28:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100162"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000074",
+    "amount": 1086700.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 34774.0,
+    "expected_net_amount": 1051926.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-08T14:41:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100074"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000010",
+    "amount": 1912.04,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 47.8,
+    "expected_net_amount": 1864.24,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-09T17:07:14",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100010"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000182",
+    "amount": 1816500.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 50862.0,
+    "expected_net_amount": 1765638.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-10T02:37:55",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100182"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000052",
+    "amount": 3490.22,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 87.26,
+    "expected_net_amount": 3402.96,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-06T08:17:09",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100052"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000009",
+    "amount": 794.29,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 19.86,
+    "expected_net_amount": 774.43,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-09T04:04:49",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100009"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000106",
+    "amount": 177500.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 5680.0,
+    "expected_net_amount": 171820.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-10T20:43:55",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100106"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000015",
+    "amount": 3869.88,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 96.75,
+    "expected_net_amount": 3773.13,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T22:28:55",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100015"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000196",
+    "amount": 1338050.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 37465.0,
+    "expected_net_amount": 1300585.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-09T03:57:54",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100196"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000111",
+    "amount": 393900.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 12605.0,
+    "expected_net_amount": 381295.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-03T14:58:12",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100111"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000132",
+    "amount": 215500.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 6896.0,
+    "expected_net_amount": 208604.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-08T19:43:25",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100132"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000197",
+    "amount": 1702650.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 47674.0,
+    "expected_net_amount": 1654976.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-05T09:55:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100197"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000007",
+    "amount": 2954.54,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 73.86,
+    "expected_net_amount": 2880.68,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-01T03:47:08",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100007"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000156",
+    "amount": 1010.22,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 28.29,
+    "expected_net_amount": 981.93,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T21:26:37",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100156"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000159",
+    "amount": 11495.64,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 321.88,
+    "expected_net_amount": 11173.76,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T05:35:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100159"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000088",
+    "amount": 742200.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 23750.0,
+    "expected_net_amount": 718450.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T19:53:39",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100088"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000113",
+    "amount": 408500.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13072.0,
+    "expected_net_amount": 395428.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-12T04:08:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100113"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000123",
+    "amount": 354700.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 11350.0,
+    "expected_net_amount": 343350.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-01T00:59:06",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100123"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000121",
+    "amount": 157500.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 5040.0,
+    "expected_net_amount": 152460.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-13T09:55:31",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100121"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000152",
+    "amount": 7843.43,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 219.62,
+    "expected_net_amount": 7623.81,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-06T19:22:14",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100152"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000144",
+    "amount": 3321.67,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 93.01,
+    "expected_net_amount": 3228.66,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-13T13:43:56",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100144"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000027",
+    "amount": 2153.6,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 53.84,
+    "expected_net_amount": 2099.76,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-10T16:40:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100027"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000190",
+    "amount": 727550.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 20371.0,
+    "expected_net_amount": 707179.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-12T03:49:03",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100190"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000176",
+    "amount": 1244550.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 34847.0,
+    "expected_net_amount": 1209703.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-06T18:57:45",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100176"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000075",
+    "amount": 1170450.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 37454.0,
+    "expected_net_amount": 1132996.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-13T04:55:53",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100075"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000014",
+    "amount": 3528.77,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 88.22,
+    "expected_net_amount": 3440.55,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T02:41:40",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100014"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000012",
+    "amount": 2690.42,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 67.26,
+    "expected_net_amount": 2623.16,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-10T04:30:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100012"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000155",
+    "amount": 3507.36,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 98.21,
+    "expected_net_amount": 3409.15,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-04T17:00:55",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100155"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000033",
+    "amount": 4855.97,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 121.4,
+    "expected_net_amount": 4734.57,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-01T06:41:17",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100033"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000137",
+    "amount": 3408.38,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 95.43,
+    "expected_net_amount": 3312.95,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-05T20:00:05",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100137"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000004",
+    "amount": 178.28,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 4.46,
+    "expected_net_amount": 173.82,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-03T06:34:53",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100004"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000078",
+    "amount": 140600.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 4499.0,
+    "expected_net_amount": 136101.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-06T17:00:58",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100078"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000046",
+    "amount": 7155.47,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 178.89,
+    "expected_net_amount": 6976.58,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-05T00:11:36",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100046"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000093",
+    "amount": 1780000.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 56960.0,
+    "expected_net_amount": 1723040.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-04T18:33:17",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100093"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000059",
+    "amount": 6195.98,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 154.9,
+    "expected_net_amount": 6041.08,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-02T07:33:25",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100059"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000186",
+    "amount": 1134050.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 31753.0,
+    "expected_net_amount": 1102297.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-01T23:55:28",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100186"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000158",
+    "amount": 6331.15,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 177.27,
+    "expected_net_amount": 6153.88,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-01T11:22:41",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100158"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000026",
+    "amount": 715.36,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 17.88,
+    "expected_net_amount": 697.48,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-07T09:03:29",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100026"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000073",
+    "amount": 596950.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 19102.0,
+    "expected_net_amount": 577848.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T10:04:08",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100073"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000135",
+    "amount": 142600.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 4563.0,
+    "expected_net_amount": 138037.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-09T03:15:40",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100135"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000151",
+    "amount": 11289.06,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 316.09,
+    "expected_net_amount": 10972.97,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-07T17:32:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100151"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000071",
+    "amount": 1571350.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 50283.0,
+    "expected_net_amount": 1521067.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-07T22:10:10",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100071"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000124",
+    "amount": 403450.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 12910.0,
+    "expected_net_amount": 390540.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-05T18:46:52",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100124"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000056",
+    "amount": 2028.06,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 50.7,
+    "expected_net_amount": 1977.36,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-12T11:21:02",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100056"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000163",
+    "amount": 4130.38,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 115.65,
+    "expected_net_amount": 4014.73,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-12T18:54:25",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100163"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000048",
+    "amount": 13937.26,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 348.43,
+    "expected_net_amount": 13588.83,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-05T21:10:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100048"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000138",
+    "amount": 740.9,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 20.75,
+    "expected_net_amount": 720.15,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-12T12:47:13",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100138"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000164",
+    "amount": 5075.14,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 142.1,
+    "expected_net_amount": 4933.04,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T19:31:53",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100164"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000081",
+    "amount": 1169450.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 37422.0,
+    "expected_net_amount": 1132028.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-13T16:32:34",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100081"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000050",
+    "amount": 7787.76,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 194.69,
+    "expected_net_amount": 7593.07,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-03T22:29:24",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100050"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000031",
+    "amount": 2122.36,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 53.06,
+    "expected_net_amount": 2069.3,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-02T13:00:27",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100031"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000060",
+    "amount": 14763.27,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 369.08,
+    "expected_net_amount": 14394.19,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-03T09:19:57",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100060"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000065",
+    "amount": 12846.71,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 321.17,
+    "expected_net_amount": 12525.54,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-03T09:02:09",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100065"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000181",
+    "amount": 56250.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 1575.0,
+    "expected_net_amount": 54675.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-08T13:43:41",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100181"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000070",
+    "amount": 14780.37,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 369.51,
+    "expected_net_amount": 14410.86,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-07T10:29:31",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100070"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000117",
+    "amount": 255200.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 8166.0,
+    "expected_net_amount": 247034.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-09T00:54:31",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100117"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000091",
+    "amount": 1635100.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 52323.0,
+    "expected_net_amount": 1582777.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-08T06:24:02",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100091"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000085",
+    "amount": 1244200.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 39814.0,
+    "expected_net_amount": 1204386.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-03T10:14:35",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100085"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000141",
+    "amount": 5790.48,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 162.13,
+    "expected_net_amount": 5628.35,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T16:48:52",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100141"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000109",
+    "amount": 13350.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 427.0,
+    "expected_net_amount": 12923.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-09T01:30:43",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100109"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000089",
+    "amount": 1088700.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 34838.0,
+    "expected_net_amount": 1053862.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-08T08:13:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100089"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000136",
+    "amount": 14282.39,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 399.91,
+    "expected_net_amount": 13882.48,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-06T16:49:15",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100136"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000142",
+    "amount": 9858.07,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 276.03,
+    "expected_net_amount": 9582.04,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-01T03:13:48",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100142"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000193",
+    "amount": 1652350.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 46266.0,
+    "expected_net_amount": 1606084.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-07T12:21:06",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100193"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000095",
+    "amount": 1270300.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 40650.0,
+    "expected_net_amount": 1229650.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-07T09:46:54",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100095"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000149",
+    "amount": 13607.48,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 381.01,
+    "expected_net_amount": 13226.47,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-11T19:45:48",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100149"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000170",
+    "amount": 4936.34,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 138.22,
+    "expected_net_amount": 4798.12,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T04:51:25",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100170"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000079",
+    "amount": 1883500.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 60272.0,
+    "expected_net_amount": 1823228.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-06T23:25:51",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100079"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000063",
+    "amount": 2793.15,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 69.83,
+    "expected_net_amount": 2723.32,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-12T05:30:01",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100063"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000178",
+    "amount": 516200.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 14454.0,
+    "expected_net_amount": 501746.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-09T22:53:49",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100178"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000104",
+    "amount": 1593250.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 50984.0,
+    "expected_net_amount": 1542266.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-01T23:14:25",
+    "status": "refunded",
+    "metadata": {
+      "order_id": "ORD-100104"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000057",
+    "amount": 7120.95,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 178.02,
+    "expected_net_amount": 6942.93,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-10T21:07:46",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100057"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000076",
+    "amount": 1064600.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 34067.0,
+    "expected_net_amount": 1030533.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-02T09:08:05",
+    "status": "failed",
+    "metadata": {
+      "order_id": "ORD-100076"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000024",
+    "amount": 349.62,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 8.74,
+    "expected_net_amount": 340.88,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-08T15:18:47",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100024"
+    }
+  },
+  {
+    "transaction_id": "TXN-BR-2024-000005",
+    "amount": 2536.67,
+    "currency": "BRL",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 63.42,
+    "expected_net_amount": 2473.25,
+    "processor_name": "PayFlow",
+    "country": "BR",
+    "transaction_date": "2024-01-01T15:27:29",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100005"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000115",
+    "amount": 330350.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 10571.0,
+    "expected_net_amount": 319779.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-10T16:07:23",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100115"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000198",
+    "amount": 712900.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 19961.0,
+    "expected_net_amount": 692939.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-07T06:30:04",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100198"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000183",
+    "amount": 1431450.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 40081.0,
+    "expected_net_amount": 1391369.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-02T20:16:16",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100183"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000166",
+    "amount": 8035.15,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 224.98,
+    "expected_net_amount": 7810.17,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-10T13:32:00",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100166"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000122",
+    "amount": 449850.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 14395.0,
+    "expected_net_amount": 435455.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-05T14:43:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100122"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000177",
+    "amount": 1340550.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 37535.0,
+    "expected_net_amount": 1303015.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-06T06:58:24",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100177"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000062",
+    "amount": 2893.62,
+    "currency": "MXN",
+    "expected_fee_percent": 2.5,
+    "expected_fee_amount": 72.34,
+    "expected_net_amount": 2821.28,
+    "processor_name": "PayFlow",
+    "country": "MX",
+    "transaction_date": "2024-01-11T21:20:10",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100062"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000195",
+    "amount": 904350.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 25322.0,
+    "expected_net_amount": 879028.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-12T06:42:44",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100195"
+    }
+  },
+  {
+    "transaction_id": "TXN-MX-2024-000143",
+    "amount": 12913.59,
+    "currency": "MXN",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 361.58,
+    "expected_net_amount": 12552.01,
+    "processor_name": "GlobalPay",
+    "country": "MX",
+    "transaction_date": "2024-01-03T14:05:29",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100143"
+    }
+  },
+  {
+    "transaction_id": "TXN-CL-2024-000126",
+    "amount": 332050.0,
+    "currency": "CLP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 10626.0,
+    "expected_net_amount": 321424.0,
+    "processor_name": "TransactMax",
+    "country": "CL",
+    "transaction_date": "2024-01-04T00:35:58",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100126"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000105",
+    "amount": 424100.0,
+    "currency": "COP",
+    "expected_fee_percent": 3.2,
+    "expected_fee_amount": 13571.0,
+    "expected_net_amount": 410529.0,
+    "processor_name": "TransactMax",
+    "country": "CO",
+    "transaction_date": "2024-01-07T01:21:41",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100105"
+    }
+  },
+  {
+    "transaction_id": "TXN-CO-2024-000185",
+    "amount": 1546100.0,
+    "currency": "COP",
+    "expected_fee_percent": 2.8,
+    "expected_fee_amount": 43291.0,
+    "expected_net_amount": 1502809.0,
+    "processor_name": "GlobalPay",
+    "country": "CO",
+    "transaction_date": "2024-01-03T22:31:10",
+    "status": "captured",
+    "metadata": {
+      "order_id": "ORD-100185"
+    }
+  }
+]

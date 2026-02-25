@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SettlementReport processor="GlobalPay" date="2024-01-18">
+  <Settlement>
+    <SettlementId>GP-2024-0001</SettlementId>
+    <TransactionRef>TXN-CO-2024-000185</TransactionRef>
+    <OriginalAmount currency="COP">1546100.00</OriginalAmount>
+    <FeeAmount>43291.00</FeeAmount>
+    <NetAmount currency="COP">1502759.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0002</SettlementId>
+    <TransactionRef>TXN-MX-2024-000140</TransactionRef>
+    <OriginalAmount currency="MXN">9464.99</OriginalAmount>
+    <FeeAmount>265.02</FeeAmount>
+    <NetAmount currency="MXN">9156.91</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-09</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0003</SettlementId>
+    <TransactionRef>TXN-CO-2024-000189</TransactionRef>
+    <OriginalAmount currency="COP">1645550.00</OriginalAmount>
+    <FeeAmount>46075.00</FeeAmount>
+    <NetAmount currency="COP">1599425.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0004</SettlementId>
+    <TransactionRef>TXN-MX-2024-000169</TransactionRef>
+    <OriginalAmount currency="MXN">3939.34</OriginalAmount>
+    <FeeAmount>203.27</FeeAmount>
+    <NetAmount currency="MXN">3736.07</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-12</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0005</SettlementId>
+    <TransactionRef>TXN-CO-2024-000183</TransactionRef>
+    <OriginalAmount currency="COP">1431450.00</OriginalAmount>
+    <FeeAmount>40081.00</FeeAmount>
+    <NetAmount currency="COP">1391369.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-06</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0006</SettlementId>
+    <TransactionRef>TXN-CO-2024-000186</TransactionRef>
+    <OriginalAmount currency="COP">1134050.00</OriginalAmount>
+    <FeeAmount>31753.00</FeeAmount>
+    <NetAmount currency="COP">1102297.00</NetAmount>
+    <FxRate toCurrency="USD">0.000266</FxRate>
+    <SettlementDate>2024-01-05</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0007</SettlementId>
+    <TransactionRef>TXN-MX-2024-000151</TransactionRef>
+    <OriginalAmount currency="MXN">11289.06</OriginalAmount>
+    <FeeAmount>316.09</FeeAmount>
+    <NetAmount currency="MXN">10972.97</NetAmount>
+    <FxRate toCurrency="USD">0.063358</FxRate>
+    <SettlementDate>2024-01-11</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0008</SettlementId>
+    <TransactionRef>TXN-CO-2024-000197</TransactionRef>
+    <OriginalAmount currency="COP">1702650.00</OriginalAmount>
+    <FeeAmount>47674.00</FeeAmount>
+    <NetAmount currency="COP">1654976.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-09</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0009</SettlementId>
+    <TransactionRef>TXN-CO-2024-000176</TransactionRef>
+    <OriginalAmount currency="COP">1244550.00</OriginalAmount>
+    <FeeAmount>34847.00</FeeAmount>
+    <NetAmount currency="COP">1209703.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-10</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0010</SettlementId>
+    <TransactionRef>TXN-CO-2024-000188</TransactionRef>
+    <OriginalAmount currency="COP">1296850.00</OriginalAmount>
+    <FeeAmount>36312.00</FeeAmount>
+    <NetAmount currency="COP">1260538.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-05</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0011</SettlementId>
+    <TransactionRef>TXN-CO-2024-000182</TransactionRef>
+    <OriginalAmount currency="COP">1816500.00</OriginalAmount>
+    <FeeAmount>50862.00</FeeAmount>
+    <NetAmount currency="COP">1765638.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0012</SettlementId>
+    <TransactionRef>TXN-MX-2024-000136</TransactionRef>
+    <OriginalAmount currency="MXN">14282.39</OriginalAmount>
+    <FeeAmount>399.91</FeeAmount>
+    <NetAmount currency="MXN">13882.48</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-10</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0013</SettlementId>
+    <TransactionRef>TXN-CO-2024-000179</TransactionRef>
+    <OriginalAmount currency="COP">1216450.00</OriginalAmount>
+    <FeeAmount>34061.00</FeeAmount>
+    <NetAmount currency="COP">1182389.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0014</SettlementId>
+    <TransactionRef>TXN-CO-2024-000198</TransactionRef>
+    <OriginalAmount currency="COP">712900.00</OriginalAmount>
+    <FeeAmount>19961.00</FeeAmount>
+    <NetAmount currency="COP">692939.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-11</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0015</SettlementId>
+    <TransactionRef>TXN-MX-2024-000162</TransactionRef>
+    <OriginalAmount currency="MXN">11032.78</OriginalAmount>
+    <FeeAmount>308.92</FeeAmount>
+    <NetAmount currency="MXN">10723.86</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-10</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0016</SettlementId>
+    <TransactionRef>TXN-MX-2024-000155</TransactionRef>
+    <OriginalAmount currency="MXN">3507.36</OriginalAmount>
+    <FeeAmount>98.21</FeeAmount>
+    <NetAmount currency="MXN">3409.15</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-08</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0017</SettlementId>
+    <TransactionRef>TXN-CO-2024-000190</TransactionRef>
+    <OriginalAmount currency="COP">727550.00</OriginalAmount>
+    <FeeAmount>20371.00</FeeAmount>
+    <NetAmount currency="COP">707179.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0018</SettlementId>
+    <TransactionRef>TXN-MX-2024-000161</TransactionRef>
+    <OriginalAmount currency="MXN">12809.05</OriginalAmount>
+    <FeeAmount>358.65</FeeAmount>
+    <NetAmount currency="MXN">12450.40</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-15</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0019</SettlementId>
+    <TransactionRef>TXN-CO-2024-000178</TransactionRef>
+    <OriginalAmount currency="COP">516200.00</OriginalAmount>
+    <FeeAmount>14454.00</FeeAmount>
+    <NetAmount currency="COP">501746.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-13</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0020</SettlementId>
+    <TransactionRef>TXN-MX-2024-000143</TransactionRef>
+    <OriginalAmount currency="MXN">12913.59</OriginalAmount>
+    <FeeAmount>361.58</FeeAmount>
+    <NetAmount currency="MXN">12552.01</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0021</SettlementId>
+    <TransactionRef>TXN-CO-2024-000174</TransactionRef>
+    <OriginalAmount currency="COP">141900.00</OriginalAmount>
+    <FeeAmount>3973.00</FeeAmount>
+    <NetAmount currency="COP">137927.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-05</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0022</SettlementId>
+    <TransactionRef>TXN-CO-2024-000195</TransactionRef>
+    <OriginalAmount currency="COP">904350.00</OriginalAmount>
+    <FeeAmount>25322.00</FeeAmount>
+    <NetAmount currency="COP">879028.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0023</SettlementId>
+    <TransactionRef>TXN-CO-2024-000180</TransactionRef>
+    <OriginalAmount currency="COP">331700.00</OriginalAmount>
+    <FeeAmount>9288.00</FeeAmount>
+    <NetAmount currency="COP">322412.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-12</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0024</SettlementId>
+    <TransactionRef>TXN-CO-2024-000196</TransactionRef>
+    <OriginalAmount currency="COP">1338050.00</OriginalAmount>
+    <FeeAmount>37465.00</FeeAmount>
+    <NetAmount currency="COP">1300585.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-13</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0025</SettlementId>
+    <TransactionRef>TXN-MX-2024-000164</TransactionRef>
+    <OriginalAmount currency="MXN">5075.14</OriginalAmount>
+    <FeeAmount>142.10</FeeAmount>
+    <NetAmount currency="MXN">4933.04</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0026</SettlementId>
+    <TransactionRef>TXN-MX-2024-000138</TransactionRef>
+    <OriginalAmount currency="MXN">740.90</OriginalAmount>
+    <FeeAmount>20.75</FeeAmount>
+    <NetAmount currency="MXN">720.15</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0027</SettlementId>
+    <TransactionRef>TXN-MX-2024-000139</TransactionRef>
+    <OriginalAmount currency="MXN">11538.92</OriginalAmount>
+    <FeeAmount>323.09</FeeAmount>
+    <NetAmount currency="MXN">11215.83</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0028</SettlementId>
+    <TransactionRef>TXN-MX-2024-000167</TransactionRef>
+    <OriginalAmount currency="MXN">9961.85</OriginalAmount>
+    <FeeAmount>278.93</FeeAmount>
+    <NetAmount currency="MXN">9682.92</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0029</SettlementId>
+    <TransactionRef>TXN-MX-2024-000137</TransactionRef>
+    <OriginalAmount currency="MXN">3408.38</OriginalAmount>
+    <FeeAmount>95.43</FeeAmount>
+    <NetAmount currency="MXN">3312.95</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-09</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0030</SettlementId>
+    <TransactionRef>TXN-MX-2024-000157</TransactionRef>
+    <OriginalAmount currency="MXN">7015.57</OriginalAmount>
+    <FeeAmount>196.44</FeeAmount>
+    <NetAmount currency="MXN">6819.13</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-06</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0031</SettlementId>
+    <TransactionRef>TXN-CO-2024-000172</TransactionRef>
+    <OriginalAmount currency="COP">168400.00</OriginalAmount>
+    <FeeAmount>4715.00</FeeAmount>
+    <NetAmount currency="COP">163685.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-05</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0032</SettlementId>
+    <TransactionRef>TXN-MX-2024-000150</TransactionRef>
+    <OriginalAmount currency="MXN">11167.65</OriginalAmount>
+    <FeeAmount>312.69</FeeAmount>
+    <NetAmount currency="MXN">10854.96</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0033</SettlementId>
+    <TransactionRef>TXN-MX-2024-000166</TransactionRef>
+    <OriginalAmount currency="MXN">8035.15</OriginalAmount>
+    <FeeAmount>224.98</FeeAmount>
+    <NetAmount currency="MXN">7810.17</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0034</SettlementId>
+    <TransactionRef>TXN-MX-2024-000144</TransactionRef>
+    <OriginalAmount currency="MXN">3321.67</OriginalAmount>
+    <FeeAmount>93.01</FeeAmount>
+    <NetAmount currency="MXN">3228.66</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-17</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0035</SettlementId>
+    <TransactionRef>TXN-CO-2024-000184</TransactionRef>
+    <OriginalAmount currency="COP">1662000.00</OriginalAmount>
+    <FeeAmount>46536.00</FeeAmount>
+    <NetAmount currency="COP">1615464.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-10</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0036</SettlementId>
+    <TransactionRef>TXN-MX-2024-000141</TransactionRef>
+    <OriginalAmount currency="MXN">5790.48</OriginalAmount>
+    <FeeAmount>162.13</FeeAmount>
+    <NetAmount currency="MXN">5628.35</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0037</SettlementId>
+    <TransactionRef>TXN-CO-2024-000187</TransactionRef>
+    <OriginalAmount currency="COP">859600.00</OriginalAmount>
+    <FeeAmount>24069.00</FeeAmount>
+    <NetAmount currency="COP">835531.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-13</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0038</SettlementId>
+    <TransactionRef>TXN-CO-2024-000194</TransactionRef>
+    <OriginalAmount currency="COP">494750.00</OriginalAmount>
+    <FeeAmount>13853.00</FeeAmount>
+    <NetAmount currency="COP">480897.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-07</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0039</SettlementId>
+    <TransactionRef>TXN-MX-2024-000170</TransactionRef>
+    <OriginalAmount currency="MXN">4936.34</OriginalAmount>
+    <FeeAmount>138.22</FeeAmount>
+    <NetAmount currency="MXN">4798.12</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0040</SettlementId>
+    <TransactionRef>TXN-CO-2024-000175</TransactionRef>
+    <OriginalAmount currency="COP">1899500.00</OriginalAmount>
+    <FeeAmount>53186.00</FeeAmount>
+    <NetAmount currency="COP">1846314.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-09</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0041</SettlementId>
+    <TransactionRef>TXN-CO-2024-000181</TransactionRef>
+    <OriginalAmount currency="COP">56250.00</OriginalAmount>
+    <FeeAmount>1575.00</FeeAmount>
+    <NetAmount currency="COP">54675.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-12</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0042</SettlementId>
+    <TransactionRef>TXN-MX-2024-000160</TransactionRef>
+    <OriginalAmount currency="MXN">14143.99</OriginalAmount>
+    <FeeAmount>396.03</FeeAmount>
+    <NetAmount currency="MXN">13747.96</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-12</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0043</SettlementId>
+    <TransactionRef>TXN-MX-2024-000163</TransactionRef>
+    <OriginalAmount currency="MXN">4130.38</OriginalAmount>
+    <FeeAmount>115.65</FeeAmount>
+    <NetAmount currency="MXN">4014.73</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0044</SettlementId>
+    <TransactionRef>TXN-MX-2024-000153</TransactionRef>
+    <OriginalAmount currency="MXN">1208.38</OriginalAmount>
+    <FeeAmount>33.83</FeeAmount>
+    <NetAmount currency="MXN">1174.55</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-11</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0045</SettlementId>
+    <TransactionRef>TXN-MX-2024-000148</TransactionRef>
+    <OriginalAmount currency="MXN">10803.15</OriginalAmount>
+    <FeeAmount>302.49</FeeAmount>
+    <NetAmount currency="MXN">10500.66</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-17</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0046</SettlementId>
+    <TransactionRef>TXN-CO-2024-000171</TransactionRef>
+    <OriginalAmount currency="COP">1902650.00</OriginalAmount>
+    <FeeAmount>53274.00</FeeAmount>
+    <NetAmount currency="COP">1849376.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-15</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0047</SettlementId>
+    <TransactionRef>TXN-CO-2024-000200</TransactionRef>
+    <OriginalAmount currency="COP">1035650.00</OriginalAmount>
+    <FeeAmount>28998.00</FeeAmount>
+    <NetAmount currency="COP">1006652.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-09</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0048</SettlementId>
+    <TransactionRef>TXN-CO-2024-000193</TransactionRef>
+    <OriginalAmount currency="COP">1652350.00</OriginalAmount>
+    <FeeAmount>46266.00</FeeAmount>
+    <NetAmount currency="COP">1606084.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-11</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0049</SettlementId>
+    <TransactionRef>TXN-CO-2024-000199</TransactionRef>
+    <OriginalAmount currency="COP">1761250.00</OriginalAmount>
+    <FeeAmount>49315.00</FeeAmount>
+    <NetAmount currency="COP">1711935.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-11</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0050</SettlementId>
+    <TransactionRef>TXN-CO-2024-000192</TransactionRef>
+    <OriginalAmount currency="COP">543800.00</OriginalAmount>
+    <FeeAmount>15226.00</FeeAmount>
+    <NetAmount currency="COP">528574.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0051</SettlementId>
+    <TransactionRef>TXN-MX-2024-000147</TransactionRef>
+    <OriginalAmount currency="MXN">8952.01</OriginalAmount>
+    <FeeAmount>250.66</FeeAmount>
+    <NetAmount currency="MXN">8701.35</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-15</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0052</SettlementId>
+    <TransactionRef>TXN-MX-2024-000152</TransactionRef>
+    <OriginalAmount currency="MXN">7843.43</OriginalAmount>
+    <FeeAmount>219.62</FeeAmount>
+    <NetAmount currency="MXN">7623.81</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-10</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0053</SettlementId>
+    <TransactionRef>TXN-MX-2024-000168</TransactionRef>
+    <OriginalAmount currency="MXN">2078.71</OriginalAmount>
+    <FeeAmount>58.20</FeeAmount>
+    <NetAmount currency="MXN">2020.51</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-16</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0054</SettlementId>
+    <TransactionRef>TXN-CO-2024-000173</TransactionRef>
+    <OriginalAmount currency="COP">108900.00</OriginalAmount>
+    <FeeAmount>3049.00</FeeAmount>
+    <NetAmount currency="COP">105851.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-13</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0055</SettlementId>
+    <TransactionRef>TXN-MX-2024-000154</TransactionRef>
+    <OriginalAmount currency="MXN">5070.92</OriginalAmount>
+    <FeeAmount>141.99</FeeAmount>
+    <NetAmount currency="MXN">4928.93</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-06</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0056</SettlementId>
+    <TransactionRef>TXN-MX-2024-000156</TransactionRef>
+    <OriginalAmount currency="MXN">1010.22</OriginalAmount>
+    <FeeAmount>28.29</FeeAmount>
+    <NetAmount currency="MXN">981.93</NetAmount>
+    <FxRate toCurrency="USD">0.058824</FxRate>
+    <SettlementDate>2024-01-14</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+  <Settlement>
+    <SettlementId>GP-2024-0057</SettlementId>
+    <TransactionRef>TXN-CO-2024-000183</TransactionRef>
+    <OriginalAmount currency="COP">1431450.00</OriginalAmount>
+    <FeeAmount>40081.00</FeeAmount>
+    <NetAmount currency="COP">1391369.00</NetAmount>
+    <FxRate toCurrency="USD">0.000250</FxRate>
+    <SettlementDate>2024-01-06</SettlementDate>
+    <Status>COMPLETED</Status>
+  </Settlement>
+</SettlementReport>

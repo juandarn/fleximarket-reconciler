@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-02-25T16:43:57.387275",
+  "seed": 42,
+  "amount_mismatches": [
+    {
+      "transaction_id": "TXN-BR-2024-000022",
+      "processor": "PayFlow",
+      "expected_net": 4111.96,
+      "actual_net": 4107.86,
+      "difference": 4.1,
+      "currency": "BRL"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000061",
+      "processor": "PayFlow",
+      "expected_net": 10663.37,
+      "actual_net": 10625.62,
+      "difference": 37.75,
+      "currency": "MXN"
+    },
+    {
+      "transaction_id": "TXN-BR-2024-000017",
+      "processor": "PayFlow",
+      "expected_net": 3106.07,
+      "actual_net": 3070.22,
+      "difference": 35.85,
+      "currency": "BRL"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000098",
+      "processor": "TransactMax",
+      "expected_net": 648996.0,
+      "actual_net": 648946.0,
+      "difference": 50.0,
+      "currency": "COP"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000084",
+      "processor": "TransactMax",
+      "expected_net": 1798931.0,
+      "actual_net": 1798881.0,
+      "difference": 50.0,
+      "currency": "COP"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000122",
+      "processor": "TransactMax",
+      "expected_net": 435455.0,
+      "actual_net": 435405.0,
+      "difference": 50.0,
+      "currency": "CLP"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000135",
+      "processor": "TransactMax",
+      "expected_net": 138037.0,
+      "actual_net": 137987.0,
+      "difference": 50.0,
+      "currency": "CLP"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000185",
+      "processor": "GlobalPay",
+      "expected_net": 1502809.0,
+      "actual_net": 1502759.0,
+      "difference": 50.0,
+      "currency": "COP"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000140",
+      "processor": "GlobalPay",
+      "expected_net": 9199.97,
+      "actual_net": 9156.91,
+      "difference": 43.06,
+      "currency": "MXN"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000189",
+      "processor": "GlobalPay",
+      "expected_net": 1599475.0,
+      "actual_net": 1599425.0,
+      "difference": 50.0,
+      "currency": "COP"
+    }
+  ],
+  "excessive_fees": [
+    {
+      "transaction_id": "TXN-BR-2024-000004",
+      "processor": "PayFlow",
+      "expected_total_fee": 4.46,
+      "actual_total_fee": 8.5,
+      "currency": "BRL"
+    },
+    {
+      "transaction_id": "TXN-BR-2024-000018",
+      "processor": "PayFlow",
+      "expected_total_fee": 44.73,
+      "actual_total_fee": 75.73,
+      "currency": "BRL"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000134",
+      "processor": "TransactMax",
+      "expected_total_fee": 12706.0,
+      "actual_total_fee": 20935.0,
+      "currency": "CLP"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000133",
+      "processor": "TransactMax",
+      "expected_total_fee": 7093.0,
+      "actual_total_fee": 14108.0,
+      "currency": "CLP"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000169",
+      "processor": "GlobalPay",
+      "expected_total_fee": 110.3,
+      "actual_total_fee": 203.27,
+      "currency": "MXN"
+    }
+  ],
+  "missing_settlements": [
+    {
+      "transaction_id": "TXN-BR-2024-000026",
+      "processor": "PayFlow",
+      "expected_net": 697.48,
+      "currency": "BRL",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000058",
+      "processor": "PayFlow",
+      "expected_net": 1461.64,
+      "currency": "MXN",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000046",
+      "processor": "PayFlow",
+      "expected_net": 6976.58,
+      "currency": "MXN",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-BR-2024-000034",
+      "processor": "PayFlow",
+      "expected_net": 575.71,
+      "currency": "BRL",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-BR-2024-000009",
+      "processor": "PayFlow",
+      "expected_net": 774.43,
+      "currency": "BRL",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000078",
+      "processor": "TransactMax",
+      "expected_net": 136101.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000130",
+      "processor": "TransactMax",
+      "expected_net": 437052.0,
+      "currency": "CLP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000088",
+      "processor": "TransactMax",
+      "expected_net": 718450.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CL-2024-000121",
+      "processor": "TransactMax",
+      "expected_net": 152460.0,
+      "currency": "CLP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000085",
+      "processor": "TransactMax",
+      "expected_net": 1204386.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000093",
+      "processor": "TransactMax",
+      "expected_net": 1723040.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000097",
+      "processor": "TransactMax",
+      "expected_net": 822848.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000159",
+      "processor": "GlobalPay",
+      "expected_net": 11173.76,
+      "currency": "MXN",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000145",
+      "processor": "GlobalPay",
+      "expected_net": 8148.49,
+      "currency": "MXN",
+      "reason": "transaction not present in settlement file"
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000177",
+      "processor": "GlobalPay",
+      "expected_net": 1303015.0,
+      "currency": "COP",
+      "reason": "transaction not present in settlement file"
+    }
+  ],
+  "duplicates": [
+    {
+      "transaction_id": "TXN-BR-2024-000010",
+      "processor": "PayFlow",
+      "settlement_ids": [
+        "PF-STL-00006",
+        "PF-STL-00056"
+      ]
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000082",
+      "processor": "TransactMax",
+      "settlement_ids": [
+        "TM-STL-00007",
+        "TM-STL-00049"
+      ]
+    },
+    {
+      "transaction_id": "TXN-CO-2024-000183",
+      "processor": "GlobalPay",
+      "settlement_ids": [
+        "GP-2024-0005",
+        "GP-2024-0057"
+      ]
+    }
+  ],
+  "currency_issues": [
+    {
+      "transaction_id": "TXN-CO-2024-000186",
+      "processor": "GlobalPay",
+      "currency": "COP",
+      "expected_fx_rate": 0.00025,
+      "actual_fx_rate": 0.000266,
+      "deviation_percent": 6.4
+    },
+    {
+      "transaction_id": "TXN-MX-2024-000151",
+      "processor": "GlobalPay",
+      "currency": "MXN",
+      "expected_fx_rate": 0.058824,
+      "actual_fx_rate": 0.063358,
+      "deviation_percent": 7.71
+    }
+  ]
+}
