@@ -9,7 +9,7 @@ from __future__ import annotations
 from typing import List
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 from sqlalchemy.orm import Session
 
 from app.core.config import settings
@@ -87,3 +87,51 @@ def get_report(
     if report is None:
         raise HTTPException(status_code=404, detail="Report not found")
     return report
+
+
+# ── Batch / async reconciliation endpoints ───────────────────────────
+
+
+@router.post("/run-async")
+def run_reconciliation_async(
+    request: ReconciliationRequest,
+    background_tasks: BackgroundTasks,
+):
+    """Submit reconciliation as a background job.
+
+    Returns immediately with a job_id that can be polled via GET /jobs/{id}.
+    """
+    from app.core.database import SessionLocal
+    from app.services.reconciliation.batch import submit_reconciliation_job
+
+    job_id = submit_reconciliation_job(
+        db_factory=SessionLocal,
+        date_from=request.date_from,
+        date_to=request.date_to,
+        processors=request.processors,
+        background_tasks=background_tasks,
+    )
+    return {
+        "job_id": job_id,
+        "status": "pending",
+        "message": "Reconciliation job submitted",
+    }
+
+
+@router.get("/jobs")
+def list_jobs():
+    """List all submitted reconciliation jobs."""
+    from app.services.reconciliation.batch import list_jobs as _list_jobs
+
+    return {"jobs": _list_jobs()}
+
+
+@router.get("/jobs/{job_id}")
+def get_job(job_id: str):
+    """Poll a specific job's status by its ID."""
+    from app.services.reconciliation.batch import get_job_status
+
+    job = get_job_status(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    return job
