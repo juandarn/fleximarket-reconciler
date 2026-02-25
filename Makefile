@@ -1,7 +1,8 @@
 .PHONY: help install db-up db-down db-reset run run-prod \
        test test-data test-ingestion test-normalizer test-reconciliation test-api \
        test-coverage test-fast test-live test-watch test-failed \
-       validate-data generate-data demo clean setup all
+       validate-data generate-data demo clean setup all \
+       docker-build docker-up docker-down docker-logs docker-demo
 
 # Default target
 help: ## Show this help message
@@ -163,3 +164,31 @@ setup: install db-up ## Full setup: install deps + start DB
 all: setup generate-data test ## Full setup + generate data + run tests
 	@echo ""
 	@echo "All done! Everything is green."
+
+# ==============================================================================
+# DOCKER (Full stack)
+# ==============================================================================
+
+docker-build: ## Build the Docker image for the app
+	docker compose build app
+
+docker-up: ## Start everything in Docker (DB + App)
+	docker compose up -d
+	@echo ""
+	@echo "Waiting for services to be ready..."
+	@sleep 5
+	@echo "FlexiMarket Reconciler running at http://localhost:8000"
+	@echo "API docs at http://localhost:8000/docs"
+	@echo "PostgreSQL at localhost:5432"
+
+docker-down: ## Stop all Docker containers
+	docker compose down
+
+docker-logs: ## Tail logs from the app container
+	docker compose logs -f app
+
+docker-demo: docker-up ## Run full Docker stack + E2E demo
+	@echo ""
+	@echo "Running E2E demo against Docker stack..."
+	@sleep 2
+	./scripts/demo.sh
