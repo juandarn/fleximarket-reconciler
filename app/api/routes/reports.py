@@ -287,3 +287,22 @@ def fee_analysis(db: Session = Depends(get_db)) -> dict:
 
     analyzer = FeeAnalyzer()
     return analyzer.get_fee_report(db)
+
+
+# ── Multi-currency discrepancy report ────────────────────────────────
+
+
+@router.get("/discrepancies/multi-currency")
+def multi_currency_report(
+    target_currency: str = "USD",
+    db: Session = Depends(get_db),
+):
+    """Report all discrepancies converted to a single currency (default USD).
+
+    Aggregates impact by processor, discrepancy type, and original currency
+    so stakeholders can see total exposure in a single denomination.
+    """
+    from app.services.reconciliation.currency_reporter import CurrencyReporter
+
+    reporter = CurrencyReporter()
+    return reporter.get_multi_currency_report(db, target_currency)
