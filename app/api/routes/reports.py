@@ -271,3 +271,19 @@ def reconciliation_report(
         else 0,
         "summary": report.summary,
     }
+
+
+# ── Fee analysis endpoint ────────────────────────────────────────────
+
+
+@router.get("/fees/analysis")
+def fee_analysis(db: Session = Depends(get_db)) -> dict:
+    """Analyze fee patterns and detect unusual deductions.
+
+    Returns average fee percentages per processor+currency,
+    plus a list of settlement entries with anomalous fees.
+    """
+    from app.services.reconciliation.fee_analyzer import FeeAnalyzer
+
+    analyzer = FeeAnalyzer()
+    return analyzer.get_fee_report(db)
